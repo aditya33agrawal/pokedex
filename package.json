@@ -1,0 +1,45 @@
+{
+  "name": "pokemon",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "14.17.0",
+    "npm": "7.21.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "export": "next export",
+    "heroku-postbuild": "npm install && npm run build && npm run export"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.6.6",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "autoprefixer": "^10.3.3",
+    "framer-motion": "^4.1.17",
+    "next": "^11.1.0",
+    "postcss": "^8.3.6",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "tailwindcss": "^2.2.9"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0",
+    "postcss-import": "^14.0.2"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aditya33agrawal/pokemon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aditya33agrawal/pokemon/issues"
+  },
+  "homepage": "https://github.com/aditya33agrawal/pokemon#readme"
+}
